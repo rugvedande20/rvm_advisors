@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #4CAF50, #45a049);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+header h1{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.make-donation-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: transform 0.3s;
+}
+
+.make-donation-btn:hover {
+    background-color: #ebebeb;
+    transform: scale(1.03);
+}
+
+.donation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.donation-box {
+    width: 45%;
+    height: relative;
+    border: 1px solid #ddd;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    background-color: #f0f8ff;
+    display: flex;
+}
+
+.donation-box img{
+    width: 200%; /* Adjust this value as needed */
+    overflow: hidden;
+    background-color: #fff;
+}
+.donation-box:hover {
+    transform: scale(1.03);
+}
+
+.donation-info {
+    background-color: #f0f8ff;
+    padding: 15px;
+    position: relative;
+}
+
+.donation-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.donation-info p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.donation-info p:last-child {
+    margin-bottom: 0;
+}
+
+.apply-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.apply-btn:hover {
+    background-color: #45a049;
+}
+
+
+footer {
+    background-color: #45a049;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.company-description {
+    margin-bottom: 15px;
+}
+
+/*#guide {
+    background-color: #f0f8ff;
+    height:fit-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#guide:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}*/
+
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.donation-image {
+    width: 100%; /* Set the desired fixed width, for example, 100% */
+    height: relative;
+}
