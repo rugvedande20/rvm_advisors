@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>SIGN IN</title>
-	<link rel="stylesheet" type="text/css" href="loginstyles.css">
+    <title>SIGN IN</title>
+    <link rel="stylesheet" type="text/css" href="loginstyles.css">
 </head>
+
 <body>
     <div><img src="logo.png" alt="Logo"></div>
-     <form action="login.html" method="post" id="form">
-     	<h2>Sign In</h2>
-     	<?php if (isset($_GET['error'])) { ?>
-     		<p class="error"><?php echo $_GET['error']; ?></p>
-     	<?php } ?>
-     	<label>User Name :</label>
-     	<input type="text" name="uname" placeholder="User Name"><br>
+    <form action="login.html" method="post" id="form">
+        <h2>Sign In</h2>
+        <!-- PHP dynamic content removed -->
+        <!-- Replace PHP dynamic content with static content if needed -->
 
-     	<label>Password :</label>
-     	<input type="password" name="password" placeholder="Password"><br>
+        <label>User Name :</label>
+        <input type="text" name="uname" placeholder="User Name"><br>
 
-     	<button type="submit">Sign In</button>
-     </form>
+        <label>Password :</label>
+        <input type="password" name="password" placeholder="Password"><br>
+
+        <button type="submit">Sign In</button>
+    </form>
 </body>
+
 </html>
+
